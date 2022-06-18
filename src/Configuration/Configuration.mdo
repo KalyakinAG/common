@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2bdc9924-41f2-4355-bf6a-9168c4bb93b0">
+  <name>Common</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общий</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="b6e0199e-e571-4557-948b-6cb74a546486"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="be8a5dcf-b065-459e-994b-3eb5c87db054"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="61647720-1fd6-45d4-acd6-e261036887dc"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="479a7678-e9f6-4657-a33a-6a4a70ad0341"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="81b14a00-ce0c-49b6-b9d5-359d1b55a583"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="a1918710-e07c-4b63-ad2a-064ea71405f8"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="445b8281-eb8b-466d-949c-a5b28d0102e8"/>
+  <namePrefix>co</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <languages uuid="cd7fa6e2-f725-422f-ad1f-d1b377fb37e2">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ОбщегоНазначения</subsystems>
+  <roles>Role.coОсновнаяРоль</roles>
+  <commonModules>CommonModule.Общий</commonModules>
+  <commonModules>CommonModule.ОбщийКлиентСервер</commonModules>
+</mdclass:Configuration>
