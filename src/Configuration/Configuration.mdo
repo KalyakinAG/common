@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c09cf4a8-33c1-4a43-9e6e-9c1526384222">
+  <name>ОбщегоНазначения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общего назначения</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="105c991f-c27c-4c21-b1fc-ddb3501c2f64"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="fd05020c-1c28-49be-895a-556316438f63"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="f356c03e-86e7-4fce-95d6-e28f27eaad3e"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="1a3df128-ff85-498b-9300-15c1f22f84d0"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="155df7f8-0a3a-4c9c-ace8-33681a04a6f0"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="7f03dc3e-7248-4c54-a0ca-c1d3ef5c807d"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="c1d022ea-1e0d-48ba-ae04-154eca0d2809"/>
+  <namePrefix>KASL</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.23</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Калякин Андрей</vendor>
+  <version>1.0.1</version>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>https://infostart.ru/profile/16301/</value>
+  </vendorInformationAddress>
+  <languages uuid="6208e02b-4939-4a1b-9bca-3def056cd11b">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.KASL</subsystems>
+  <styleItems>StyleItem.ИтогиФонГруппы</styleItems>
+  <styleItems>StyleItem.ЦветПодписи</styleItems>
+  <commonPictures>CommonPicture.ГраницаСправа</commonPictures>
+  <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
+  <commonPictures>CommonPicture.Структура</commonPictures>
+  <commonPictures>CommonPicture.СтруктураПодчиненности</commonPictures>
+  <commonModules>CommonModule.Общий</commonModules>
+  <commonModules>CommonModule.ОбщийКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщийКлиент</commonModules>
+</mdclass:Configuration>
