@@ -44,6 +44,6 @@
   <commonPictures>CommonPicture.Структура</commonPictures>
   <commonPictures>CommonPicture.СтруктураПодчиненности</commonPictures>
   <commonModules>CommonModule.Общий</commonModules>
-  <commonModules>CommonModule.ОбщийКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщийКлиент</commonModules>
+  <commonModules>CommonModule.ОбщийКлиентСервер</commonModules>
 </mdclass:Configuration>
