@@ -33,6 +33,8 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.KASL</subsystems>
+  <styleItems>StyleItem.KASLЦветПодписи</styleItems>
+  <styleItems>StyleItem.KASLИтогиФонГруппы</styleItems>
   <commonPictures>CommonPicture.KASLГраницаСправа</commonPictures>
   <commonPictures>CommonPicture.KASLЗаполнитьФорму</commonPictures>
   <commonPictures>CommonPicture.KASLСтруктура</commonPictures>
