@@ -14,12 +14,12 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="155df7f8-0a3a-4c9c-ace8-33681a04a6f0"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="7f03dc3e-7248-4c54-a0ca-c1d3ef5c807d"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="c1d022ea-1e0d-48ba-ae04-154eca0d2809"/>
-  <namePrefix>KASL</namePrefix>
+  <namePrefix>БКА_</namePrefix>
   <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Калякин Андрей</vendor>
-  <version>1.1.0.1</version>
+  <version>1.2.0.1</version>
   <vendorInformationAddress>
     <key>ru</key>
     <value>https://infostart.ru/profile/16301/</value>
@@ -32,13 +32,7 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
-  <subsystems>Subsystem.KASL</subsystems>
-  <styleItems>StyleItem.KASLЦветПодписи</styleItems>
-  <styleItems>StyleItem.KASLИтогиФонГруппы</styleItems>
-  <commonPictures>CommonPicture.KASLГраницаСправа</commonPictures>
-  <commonPictures>CommonPicture.KASLЗаполнитьФорму</commonPictures>
-  <commonPictures>CommonPicture.KASLСтруктура</commonPictures>
-  <commonPictures>CommonPicture.KASLСинхронизацияДанныхВыгрузить</commonPictures>
+  <subsystems>Subsystem.ОбщегоНазначения</subsystems>
   <commonModules>CommonModule.Общий</commonModules>
   <commonModules>CommonModule.ОбщийКлиент</commonModules>
   <commonModules>CommonModule.ОбщийКлиентСервер</commonModules>
