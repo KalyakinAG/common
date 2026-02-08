@@ -33,8 +33,10 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.ОбщегоНазначения</subsystems>
+  <subsystems>Subsystem.МодельТекста</subsystems>
   <commonModules>CommonModule.Общий</commonModules>
   <commonModules>CommonModule.ОбщийКлиент</commonModules>
   <commonModules>CommonModule.ОбщийКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщийПовтИсп</commonModules>
+  <dataProcessors>DataProcessor.МодельТекста</dataProcessors>
 </mdclass:Configuration>
